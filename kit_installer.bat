@@ -11,10 +11,10 @@ REM update below path if required
 SET PY_LOCATION="C:\Python"
 SET PY_VERSION=3.9.13
 SET PY_DOWNLOAD_URL=https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
-SET REPO_DOWNLOAD_URL=https://github.com/kandi1clickkits/house-price-prediction/releases/download/v1.0.0/house-price-prediction.zip
+SET REPO_DOWNLOAD_URL=https://github.com/kandi1clickkits/house-price-prediction/releases/download/v1.0.0/house-price-prediction-master.zip
 SET REPO_DEPENDENCIES_URL=https://github.com/kandi1clickkits/house-price-prediction/raw/main/requirements.txt
-SET REPO_NAME=house-price-prediction.zip
-SET EXTRACTED_REPO_DIR=house-price-prediction
+SET REPO_NAME=house-price-prediction-master.zip
+SET EXTRACTED_REPO_DIR=house-price-prediction-master
 SET NOTEBOOK_NAME=House_price_prediction.ipynb
 where /q python
 IF ERRORLEVEL 1 (
